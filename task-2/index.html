@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            background-color: #f0f0f0;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            justify-content: center;
+            min-height: 100vh;
+            margin: 0;
+        }
+        .gallery {
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            gap: 20px;
+        }
+        .gallery img {
+            max-width: 100%;
+            height: auto;
+            border: 2px solid #ccc;
+            border-radius: 10px;
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+        }
+    </style>
+</head>
+<body>
+    <div class="gallery">
+	<h2>GET HTTP 1.0</h2>
+        <img src="screenshots/1.png" alt="Изображение 1">
+        <h2>GET HTTP 1.1</h2>
+	<img src="screenshots/2.png" alt="Изображение 2">
+	<h2>Размер файа file.tar.gz</h2>
+        <img src="Screenshots/3.png" alt="Изображение 3">
+	<h2>Медиатип image.png</h2>
+	<img src="screenshots/4.png" alt="Изображение 4">
+    </div>
+</body>
+</html>
